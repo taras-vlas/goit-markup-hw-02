@@ -8,7 +8,9 @@
 - створено на GitHub репозиторій https://github.com/taras-vlas/goit-markup-hw-02.
 - на taras-vlas / goit-markup-hw-02 створили .gitignore, Комітимо.
 - на taras-vlas/goit-markup-hw-01 кнопка Code --> Open with GIThub Desktop.
+
 - в GIThub Desktop клонуємо.
+
 - відкриваємо в VSC і переносимо інші папки, вносимо інфу
 - в GIThub Desktop файли Комітимо і Push.
 

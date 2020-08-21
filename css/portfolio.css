@@ -1,0 +1,87 @@
+/* прцюємо у VSC паралельно в двох колонках */
+/* Боаузер читає зправа наліво !!!   */
+
+/* body {
+  background-color: #ffffff;
+  color: #212121;} --*/
+/* button - Системи кнопок M.2,Веб.З: 2.09.40 */
+
+.describe-btn button {
+  color: var(--primary-text-color);
+  background-color: var(--button-bckgr-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62; /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  border-radius: 4px;
+  border-style: none;
+  /*
+padding: 12px 24px;
+display: inline-block;
+border: 1px solid black; */
+}
+
+.describe-btn button:hover,
+.describe-btn button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* main */
+.name-work {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2; /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+}
+.type-work {
+  color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87; /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+}
+.describe-work {
+  color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71; /* or 171% */
+  letter-spacing: 0.03em;
+}
+
+/* filter nav 
+.filter-nav .link {
+  color: var(--accent-color);
+}
+.filter-nav .link:hover,
+.filter-nav .link:focus {
+  color: var(--title-text-color);
+}  */
+
+/*hero/
+.hero-title {
+  color: var(--title-text-color);
+}    */
+/*section/
+.section-title {
+  color: var(--title-text-color);
+} 
+*/
+/*feature/
+.feature-list .title {
+  color: var(--title-text-color);
+}
+*/
+
+/*examples/
+.work-list .title {
+  color: var(--title-text-color);
+}
+*/

@@ -1,0 +1,107 @@
+:root {
+  /*як селектор html для index.html
+  Робимо об'яву своїх перемінних:*/
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+
+  --secondary-bckgr-color: #2f303a;
+  --secondary-grey-color: rgba(255, 255, 255, 0.6);
+  --secondary-blacK-color: #000000;
+  --button-bckgr-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--title-text-color);
+
+  font-family: Roboto, Raleway, sans-serif;
+  /*щрифт без насічок*/
+  /*letter-spacing: 0.15em;   Унаслідковуване*/
+}
+
+/* logo */
+.logo {
+  color: var(--accent-color);
+
+  font-family: Raleway, cursive, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+.logo-black {
+  color: var(--secondary-blacK-color);
+}
+
+/* ul або ссилки link */
+.list {
+  /* class для сброса стиля, например, точек при uL 
+  и link для можно так же. M.2,Веб.З: 1.42.20 */
+  list-style: none;
+}
+
+/* Site-nav  */
+.site-nav,
+.aus-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link.current {
+  /* ввели альтернативний колір на клік*/
+  color: var(--accent-color);
+}
+.site-nav a {
+  /*або .site-nav .link */
+  color: var(--primary-text-color);
+  text-decoration: none; /*праює тільки зі ссилками*/
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  /*ефект наведення M.2,Веб.З: 1.47.20 */
+  color: var(--accent-color);
+}
+
+/*aus-nav*/
+/* aus  rgba(255, 255, 255, 0.6) */
+.aus-nav a {
+  color: var(--title-text-color);
+  text-decoration: none; /*праює тільки зі ссилками*/
+}
+.aus-nav .link:hover,
+.aus-nav .link:focus {
+  /*ефект наведення M.2,Веб.З: 1.47.20 */
+  color: var(--accent-color);
+}
+
+/* main */
+
+/*footer background #2F303A*/
+footer {
+  width: 1600px;
+  height: 252px;
+  background-color: var(--secondary-bckgr-color);
+  color: var(--primary-white-color);
+}
+/* logo */
+
+.logo-white {
+  color: var(--primary-white-color);
+}
+
+/* address */
+.aus-footer a {
+  color: var(--secondary-grey-color);
+  text-decoration: none; /*праює тільки зі ссилками*/
+}
+address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71; /* or 171% */
+  letter-spacing: 0.03em;
+}

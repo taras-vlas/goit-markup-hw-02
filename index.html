@@ -2,139 +2,159 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <title>Веб студия: портфолио</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Веб студия. Главная</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
 
   <body>
     <!-- Шапка страницы -->
     <header>
-      <!-- Главная навигация -->
+      <!-- site-nav - Главная навигация -->
       <nav>
-        <!-- Логотип, всегда ссылка -->
-        <a href="/" lang="en">Web<span>Studio</span> </a>
-        <!-- Ссылки на другие страницы или разделы текущей -->
-        <ul>
-          <li><a href="">Студия</a></li>
-          <!--        <img
-            src="./images/finger-1.svg"
-            alt="Логтип указателя 1"
-            width="13"/> -->
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <!-- logo Логотип, всегда ссылка -->
+        <a href="/" lang="en" class="logo"
+          >Web<span class="logo-black">Studio</span>
+        </a>
+        <!-- site-nav - Ссылки на другие страницы или разделы текущей -->
+        <ul class="site-nav list">
+          <li><a href="./index.html" class="link current">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <!-- Contats -->
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 (096) 111-11-11</a></li>
+      <!-- aus-nav, Contats -->
+      <ul class="aus-nav list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="link">+38 (096) 111-11-11</a>
+        </li>
       </ul>
-      <!--        <img
-            src="./images/finger-2.svg"
-            alt="Логтип указателя 1"
-            width="13"/> -->
     </header>
-
     <!-- Уникальный контент страницы -->
     <main>
-      <!-- навигация портфолио-->
-      <nav>
-        <ul>
-          <li><a href="">Все</a></li>
-          <li><a href="">Веб-сайты</a></li>
-          <li><a href="">Приложения</a></li>
-          <li><a href="">Дизайн</a></li>
-          <li><a href="">Маркетинг</a></li>
-          <!--        <img
-            src="./images/finger-1.svg"
-            alt="Логтип указателя 1"
-            width="13"/> -->
-        </ul>
-      </nav>
+      <!-- Hero - Секция главная -->
+      <section class="hero">
+        <h1 class="hero-title">
+          ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br />
+          ДЛЯ ВАШЕГО БИЗНЕСА
+        </h1>
+        <!-- order - Отображение кнопки  или-->
+        <!-- service - Указываем ссыпку -->
+        <a href="" class="button">Заказать услугу</a>
+      </section>
 
-      <!-- Секция главная -->
+      <!-- section advantage  - Секция преимуществ -->
       <section>
-        <!--  <h1> ПОРТФОЛИО </h1>      -->
-        <ul>
+        <ul class="list">
+          <li>
+            <h3 class="advantage-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+            <p>
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li>
+            <h3 class="advantage-title">ПУНКТУАЛЬНОСТЬ</h3>
+            <p>
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li>
+            <h3 class="advantage-title">ПЛАНИРОВАНИЕ</h3>
+            <p>
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li>
+            <h3 class="advantage-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+            <p>
+              Значимость этих прблем настолько очевидна, что реализация плановых
+              заданий.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- <section work -->
+      <section>
+        <h2 class="section-title">Чем мы занимаемся</h2>
+        <ul class="list">
           <li>
             <img
-              src="./images/hw-02-001.jpg"
-              alt="Фотография персонала."
+              src="./images/21.jpg"
+              alt="Программист за работой, использует планшет, рукопись, набирая команды на клавиатуре."
               width="370"
             />
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
           </li>
           <li>
             <img
-              src="./images/hw-02-002.jpg"
-              alt="Банер. Баскетболисты с мячем."
+              src="./images/22.jpg"
+              alt="Человек держит в руках айфон и работает на ноутбуке."
               width="370"
             />
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
           </li>
           <li>
             <img
-              src="./images/hw-02-003.jpg"
-              alt="Картинка. Аафиша ресторана Seafood."
+              src="./images/23.jpg"
+              alt="Дизайнер держит в руках планшет и выбирает цвет из изображенной палитры цветов."
               width="370"
             />
-            <h2>Ресторан Seafood</h2>
-            <p>Приложение</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- section staff -->
+      <section>
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="list">
+          <li>
+            <img
+              src="./images/31.jpg"
+              alt="Фотография Игоря Демяненко Product Designer."
+              width="270"
+            />
+            <h3 class="staff-title">Игорь Демяненко</h3>
+            <h4>Product Designer</h4>
           </li>
           <li>
             <img
-              src="./images/hw-02-004.jpg"
-              alt="Картинка товара наушникм."
-              width="370"
+              src="./images/32.jpg"
+              alt="Фотография Ольги Репиной Frontend Developer."
+              width="270"
             />
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
+            <h3 class="staff-title">Ольга Репина</h3>
+            <h4>Frontend Developer</h4>
           </li>
           <li>
             <img
-              src="./images/hw-02-005.jpg"
-              alt="Фотография упаковочных коробок."
-              width="370"
+              src="./images/33.jpg"
+              alt="Фотография Николая Тарасова Marketing."
+              width="270"
             />
-            <h2>Проект Boxes</h2>
-            <p>Приложение</p>
+            <h3 class="staff-title">Николай Тарасов</h3>
+            <h4>Marketing</h4>
           </li>
           <li>
             <img
-              src="./images/hw-02-006.jpg"
-              alt="Каптинка LED экрана с презентацией веб-сайта."
-              width="370"
+              src="./images/34.jpg"
+              alt="Фотография Михаила Ермакова UI Designer."
+              width="270"
             />
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
-          </li>
-          <li>
-            <img
-              src="./images/hw-02-007.jpg"
-              alt="Картика. Дизайн рекламного издания."
-              width="370"
-            />
-            <h2>Издание Limited Edition</h2>
-            <p>Дизайн</p>
-          </li>
-          <li>
-            <img
-              src="./images/hw-02-008.jpg"
-              alt="Картинка. Бирка рекламируемого товара."
-              width="370"
-            />
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
-          </li>
-          <li>
-            <img
-              src="./images/hw-02-009.jpg"
-              alt="Картинка презентации бизнеса на ноутбуке."
-              width="370"
-            />
-            <h2>Growing Business</h2>
-            <p>Приложение</p>
+            <h3 class="staff-title">Михаил Ермаков</h3>
+            <h4>UI Designer</h4>
           </li>
         </ul>
       </section>
@@ -143,9 +163,11 @@
     <!-- Подвал страницы -->
     <footer>
       <!-- Логотип, всегда ссылка -->
-      <a href="/" lang="en">Web<span>Studio</span></a>
+      <a href="/" lang="en" class="logo"
+        >Web<span class="logo-white">Studio</span></a
+      >
       <!-- Адрес и контакты -->
-      <address>
+      <address class="aus-footer">
         Киев, пр-т Леси Украинки,26
         <a href="mailto:info@exempl.com">info@exempl.com</a>
         <a href="tel:+380961111111">+38 (096) 111-11-11</a>
@@ -154,5 +176,17 @@
   </body>
 </html>
 
-<!-- абсолютные пути  не копировались             
-                  <img src="https://www.figma.com/file/ ... "  -->
+<!-- абсолютные пути
+                  <img src="https://www.figma.com/file/VQ02IIL57fc33U4GP1WEdf/Web-Studio-Version-2.0?node-id=1572%3A136"
+                
+                  <img src="https://www.figma.com/file/VQ02IIL57fc33U4GP1WEdf/Web-Studio-Version-2.0?node-id=1572%3A141"
+             
+                  <img src="https://www.figma.com/file/VQ02IIL57fc33U4GP1WEdf/Web-Studio-Version-2.0?node-id=1572%3A146"
+    
+                  <img src="https://www.figma.com/file/VQ02IIL57fc33U4GP1WEdf/Web-Studio-Version-2.0?node-id=1572%3A155"
+                  
+                  <img src="https://www.figma.com/file/VQ02IIL57fc33U4GP1WEdf/Web-Studio-Version-2.0?node-id=1572%3A183"
+               
+                  <img src="https://www.figma.com/file/VQ02IIL57fc33U4GP1WEdf/Web-Studio-Version-2.0?node-id=1572%3A211"
+               
+                  <img src="https://www.figma.com/file/VQ02IIL57fc33U4GP1WEdf/Web-Studio-Version-2.0?node-id=1572%3A239"  -->
