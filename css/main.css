@@ -9,7 +9,7 @@ h1 {
 
 .hero {
   width: 1600px;
-  height: 600px;
+
   background-color: var(--secondary-bckgr-color);
 }
 
@@ -76,6 +76,12 @@ p {
 }
 
 /* section staff  */
+.section-staff {
+  width: 1600px;
+
+  background-color: var(--button-bckgr-color);
+}
+
 .staff-title {
   color: var(--primary-text-color);
 

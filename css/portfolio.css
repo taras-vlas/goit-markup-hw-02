@@ -31,6 +31,9 @@ border: 1px solid black; */
 }
 
 /* main */
+.decoration a {
+  text-decoration: none; /*праює тільки зі ссилками*/
+}
 .name-work {
   color: var(--primary-text-color);
 
@@ -47,14 +50,16 @@ border: 1px solid black; */
   line-height: 1.87; /* identical to box height, or 187% */
   letter-spacing: 0.03em;
 }
+/*
 .describe-work {
   color: var(--title-text-color);
 
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71; /* or 171% */
+  line-height: 1.71; 
   letter-spacing: 0.03em;
 }
+*/
 
 /* filter nav 
 .filter-nav .link {

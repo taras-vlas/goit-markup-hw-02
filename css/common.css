@@ -25,11 +25,12 @@ body {
 .logo {
   color: var(--accent-color);
 
-  font-family: Raleway, cursive, sans-serif;
+  font-family: Raleway, cursive;
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
+  text-decoration: none; /*праює тільки зі ссилками*/
 }
 .logo-black {
   color: var(--secondary-blacK-color);
@@ -61,7 +62,9 @@ body {
   text-decoration: none; /*праює тільки зі ссилками*/
 }
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.aus-nav .link:hover,
+.aus-nav .link:focus {
   /*ефект наведення M.2,Веб.З: 1.47.20 */
   color: var(--accent-color);
 }
@@ -72,18 +75,13 @@ body {
   color: var(--title-text-color);
   text-decoration: none; /*праює тільки зі ссилками*/
 }
-.aus-nav .link:hover,
-.aus-nav .link:focus {
-  /*ефект наведення M.2,Веб.З: 1.47.20 */
-  color: var(--accent-color);
-}
 
 /* main */
 
 /*footer background #2F303A*/
 footer {
   width: 1600px;
-  height: 252px;
+
   background-color: var(--secondary-bckgr-color);
   color: var(--primary-white-color);
 }
@@ -94,14 +92,21 @@ footer {
 }
 
 /* address */
-.aus-footer a {
-  color: var(--secondary-grey-color);
-  text-decoration: none; /*праює тільки зі ссилками*/
-}
 address {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71; /* or 171% */
   letter-spacing: 0.03em;
+}
+
+.aus-footer {
+  color: var(--secondary-grey-color);
+  text-decoration: none; /*праює тільки зі ссилками*/
+}
+
+.aus-footer:hover,
+.aus-footer:focus {
+  /*ефект наведення M.2,Веб.З: 1.47.20 */
+  color: var(--accent-color);
 }
